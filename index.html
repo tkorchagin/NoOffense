@@ -11,52 +11,79 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-/*            height: 100vh;*/
-/*            background-color: #f2f2f2;*/
             margin-top: 60px;
             margin-bottom: 60px;
+            background-color: #f7f7f7;
         }
-
 
         #time {
             position: absolute;
-            top: 10px;
+            top: 20px;
             font-size: 24px;
+            background-color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
         }
+
         #situationInput {
             font-family: Arial, Helvetica, sans-serif;
             width: 90%;
-            padding: 10px;
+            padding: 15px;
             font-size: 18px;
             margin: 20px 0;
-            border-radius: 5px;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+        /*    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);*/
+            background-color: #ffffff;
+            resize: none;
         }
-        button-row {
+
+        .button-row {
             display: flex;
             justify-content: space-between;
-            width: 80%;
+            width: 90%;
         }
 
         .bottom-button {
             width: 90%;
             position: absolute;
-            bottom: 10px;
-            height: 44px;
+            bottom: 20px;
+            height: 50px;
             left: 5%;
-            border-radius: 10px;
+            border-radius: 12px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+        /*    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);*/
         }
 
         button {
             flex: 1;
             margin: 5px;
+            padding: 10px;
+            border-radius: 12px;
+            border: none;
+            background-color: #2196F3;
+            color: white;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+            height: 50px;
         }
+
+        button:hover {
+            background-color: #1976D2;
+        }
+
         #formula {
             font-size: 18px;
             margin-top: 20px;
-            background-color: #f2f2f2;
-            padding: 10px;
-            border-radius: 5px;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
             max-width: 90%;
+        /*    border: 1px solid #e0e0e0;*/
+        /*    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);*/
         }
     </style>
 </head>
